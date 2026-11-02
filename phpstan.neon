@@ -1,0 +1,21 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    level: 8
+    paths:
+        - app
+        - database
+        - routes
+    ignoreErrors:
+        # Nova's own PasswordValidationRules answers a plain array, narrower
+        # in Nova than the rules creationRules() and updateRules() declare.
+        -
+            identifier: argument.type
+            path: app/Nova/User.php
+            count: 2
+        # The menu identity of a sliders package since renamed: it is only a
+        # string in the stored menu, and the class need not exist.
+        -
+            identifier: class.notFound
+            path: database/migrations/2026_10_02_144225_arrange_admin_menu_like_wordpress.php

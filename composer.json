@@ -1,0 +1,285 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "kitloom/nova-skeleton",
+    "type": "project",
+    "description": "Grow on Laravel, run it with AI: the kitloom site with the Laravel Nova admin editors already know, an MCP server for AI agents, and a way in for the WordPress site you have.",
+    "keywords": [
+        "kitloom",
+        "wordpress",
+        "laravel"
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": "^8.4",
+        "kitloom/activity-log": "^1.0",
+        "kitloom/activity-log-nova": "^1.0",
+        "kitloom/ad-pixels": "^1.0",
+        "kitloom/ad-pixels-nova": "^1.0",
+        "kitloom/admin-bar": "^1.0",
+        "kitloom/admin-bar-nova": "^1.0",
+        "kitloom/admin-menu": "^1.0",
+        "kitloom/admin-menu-nova": "^1.0",
+        "kitloom/ads": "^1.0",
+        "kitloom/ads-nova": "^1.0",
+        "kitloom/ai": "^1.0",
+        "kitloom/ai-nova": "^1.0",
+        "kitloom/ai-writer": "^1.0",
+        "kitloom/ai-writer-nova": "^1.0",
+        "kitloom/analytics": "^1.0",
+        "kitloom/analytics-nova": "^1.0",
+        "kitloom/api": "^1.0",
+        "kitloom/api-nova": "^1.0",
+        "kitloom/assistant": "^1.0",
+        "kitloom/assistant-nova": "^1.0",
+        "kitloom/atelier-theme": "^1.0",
+        "kitloom/backup": "^1.0",
+        "kitloom/backup-nova": "^1.0",
+        "kitloom/blade-theme": "^1.0",
+        "kitloom/booking-calendars": "^1.0",
+        "kitloom/booking-calendars-nova": "^1.0",
+        "kitloom/booking-meetings": "^1.0",
+        "kitloom/booking-meetings-nova": "^1.0",
+        "kitloom/bookings": "^1.0",
+        "kitloom/bookings-nova": "^1.0",
+        "kitloom/bureau-theme": "^1.0",
+        "kitloom/comments": "^1.0",
+        "kitloom/comments-nova": "^1.0",
+        "kitloom/cookie-consent": "^1.0",
+        "kitloom/cookie-consent-nova": "^1.0",
+        "kitloom/courses": "^1.0",
+        "kitloom/courses-nova": "^1.0",
+        "kitloom/custom-fields": "^1.0",
+        "kitloom/custom-fields-nova": "^1.0",
+        "kitloom/deploy": "^1.0",
+        "kitloom/duplicate-posts": "^1.0",
+        "kitloom/duplicate-posts-nova": "^1.0",
+        "kitloom/emails": "^1.0",
+        "kitloom/emails-nova": "^1.0",
+        "kitloom/forms": "^1.0",
+        "kitloom/forms-nova": "^1.0",
+        "kitloom/future-actions": "^1.0",
+        "kitloom/future-actions-nova": "^1.0",
+        "kitloom/game-reviews-theme": "^1.0",
+        "kitloom/garland-theme": "^1.0",
+        "kitloom/header-footer": "^1.0",
+        "kitloom/header-footer-nova": "^1.0",
+        "kitloom/health": "^1.0",
+        "kitloom/health-nova": "^1.0",
+        "kitloom/horizon": "^1.0",
+        "kitloom/horizon-nova": "^1.0",
+        "kitloom/impersonate": "^1.0",
+        "kitloom/impersonate-nova": "^1.0",
+        "kitloom/import-export": "^1.0",
+        "kitloom/import-export-nova": "^1.0",
+        "kitloom/internal-links": "^1.0",
+        "kitloom/internal-links-nova": "^1.0",
+        "kitloom/inventory": "^1.0",
+        "kitloom/inventory-nova": "^1.0",
+        "kitloom/invoices": "^1.0",
+        "kitloom/invoices-nova": "^1.0",
+        "kitloom/journal-theme": "^1.0",
+        "kitloom/keystone-theme": "^1.0",
+        "kitloom/languages": "^1.0",
+        "kitloom/languages-nova": "^1.0",
+        "kitloom/link-checks": "^1.0",
+        "kitloom/link-checks-nova": "^1.0",
+        "kitloom/listings": "^1.0",
+        "kitloom/listings-nova": "^1.0",
+        "kitloom/lyceum-theme": "^1.0",
+        "kitloom/maintenance": "^1.0",
+        "kitloom/maintenance-nova": "^1.0",
+        "kitloom/marketplace-theme": "^1.0",
+        "kitloom/media": "^1.0",
+        "kitloom/media-nova": "^1.0",
+        "kitloom/media-optimizer": "^1.0",
+        "kitloom/media-optimizer-nova": "^1.0",
+        "kitloom/media-replace": "^1.0",
+        "kitloom/media-replace-nova": "^1.0",
+        "kitloom/modules": "^1.0",
+        "kitloom/modules-nova": "^1.0",
+        "kitloom/multisite": "^1.0",
+        "kitloom/multisite-nova": "^1.0",
+        "kitloom/navigation": "^1.0",
+        "kitloom/navigation-nova": "^1.0",
+        "kitloom/newsletter": "^1.0",
+        "kitloom/newsletter-nova": "^1.0",
+        "kitloom/notifications": "^1.0",
+        "kitloom/notifications-nova": "^1.0",
+        "kitloom/pantry-theme": "^1.0",
+        "kitloom/parsec-theme": "^1.0",
+        "kitloom/payments": "^1.0",
+        "kitloom/payments-nova": "^1.0",
+        "kitloom/permissions": "^1.0",
+        "kitloom/permissions-nova": "^1.0",
+        "kitloom/phrases": "^1.0",
+        "kitloom/phrases-nova": "^1.0",
+        "kitloom/portfolio-theme": "^1.0",
+        "kitloom/post-types": "^1.0",
+        "kitloom/post-types-nova": "^1.0",
+        "kitloom/privacy": "^1.0",
+        "kitloom/privacy-nova": "^1.0",
+        "kitloom/public-agents": "^1.0",
+        "kitloom/public-agents-nova": "^1.0",
+        "kitloom/pulse": "^1.0",
+        "kitloom/pulse-nova": "^1.0",
+        "kitloom/quire-theme": "^1.0",
+        "kitloom/redirects": "^1.0",
+        "kitloom/redirects-nova": "^1.0",
+        "kitloom/safe-svg": "^1.0",
+        "kitloom/safe-svg-nova": "^1.0",
+        "kitloom/saffron-theme": "^1.0",
+        "kitloom/search": "^1.0",
+        "kitloom/search-nova": "^1.0",
+        "kitloom/search-replace": "^1.0",
+        "kitloom/search-replace-nova": "^1.0",
+        "kitloom/security": "^1.0",
+        "kitloom/security-nova": "^1.0",
+        "kitloom/sentry": "^1.0",
+        "kitloom/sentry-nova": "^1.0",
+        "kitloom/seo": "^1.0",
+        "kitloom/seo-nova": "^1.0",
+        "kitloom/settings": "^1.0",
+        "kitloom/settings-nova": "^1.0",
+        "kitloom/shop": "^1.0",
+        "kitloom/shop-nova": "^1.0",
+        "kitloom/shortcodes": "^1.0",
+        "kitloom/shortcodes-nova": "^1.0",
+        "kitloom/site": "^1.0",
+        "kitloom/site-inertia": "^1.0",
+        "kitloom/site-nova": "^1.0",
+        "kitloom/slider": "^1.0",
+        "kitloom/slider-nova": "^1.0",
+        "kitloom/social-accounts": "^1.0",
+        "kitloom/social-accounts-nova": "^1.0",
+        "kitloom/spreadsheets": "^1.0",
+        "kitloom/spreadsheets-nova": "^1.0",
+        "kitloom/tag-manager": "^1.0",
+        "kitloom/tag-manager-nova": "^1.0",
+        "kitloom/telescope": "^1.0",
+        "kitloom/telescope-nova": "^1.0",
+        "kitloom/text-messages": "^1.0",
+        "kitloom/text-messages-nova": "^1.0",
+        "kitloom/top": "^1.0",
+        "kitloom/top-nova": "^1.0",
+        "kitloom/two-factor": "^1.0",
+        "kitloom/two-factor-nova": "^1.0",
+        "kitloom/visual-editor-nova": "^1.0",
+        "kitloom/waypoint-theme": "^1.0",
+        "kitloom/webhooks": "^1.0",
+        "kitloom/webhooks-nova": "^1.0",
+        "kitloom/widgets": "^1.0",
+        "kitloom/widgets-nova": "^1.0",
+        "kitloom/wp-schema": "^1.0",
+        "kitloom/wp-schema-nova": "^1.0",
+        "laravel/framework": "^13.0",
+        "laravel/nova": "^5.0",
+        "laravel/tinker": "^3.0"
+    },
+    "require-dev": {
+        "brianium/paratest": "^7.20",
+        "fakerphp/faker": "^1.23",
+        "kitloom/sandbox": "^1.0",
+        "larastan/larastan": "^3.0",
+        "laravel/pail": "^1.2.2",
+        "laravel/pint": "^1.24",
+        "laravel/sail": "^1.41",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.6",
+        "phpunit/phpunit": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "setup": [
+            "composer install",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php artisan key:generate",
+            "@php artisan migrate --force",
+            "npm install",
+            "npm run build"
+        ],
+        "dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1 --timeout=0\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite --kill-others-on-fail"
+        ],
+        "test": [
+            "@php artisan config:clear --ansi",
+            "@php artisan test"
+        ],
+        "lint": [
+            "@php vendor/bin/pint"
+        ],
+        "analyse": [
+            "@php vendor/bin/phpstan analyse --memory-limit=1G"
+        ],
+        "check": [
+            "@php vendor/bin/pint --test",
+            "@analyse",
+            "@test"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi",
+            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+            "@php artisan storage:link --ansi",
+            "Composer\\Config::disableProcessTimeout",
+            "@php artisan vendor:publish --tag=nova-lang --ansi",
+            "@php artisan kitloom:install --ansi"
+        ],
+        "pre-package-uninstall": [
+            "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        },
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.kitloom.dev",
+            "only": [
+                "kitloom/*"
+            ]
+        }
+    ],
+    "homepage": "https://kitloom.dev"
+}
