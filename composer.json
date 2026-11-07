@@ -101,6 +101,8 @@
         "kitloom/media-optimizer-nova": "^1.0",
         "kitloom/media-replace": "^1.0",
         "kitloom/media-replace-nova": "^1.0",
+        "kitloom/mobile-apps": "^1.0",
+        "kitloom/mobile-apps-nova": "^1.0",
         "kitloom/modules": "^1.0",
         "kitloom/modules-nova": "^1.0",
         "kitloom/multisite": "^1.0",

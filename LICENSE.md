@@ -4,7 +4,7 @@
 
 # kitloom Commercial License Agreement
 
-Last updated: 2026-10-22
+Last updated: 2026-11-06
 
 Copyright © 2026 Kitloom. All rights reserved.
 
@@ -60,6 +60,10 @@ Your Client may use and modify the Software as part of its Project, but may not 
 ## 6. Updates and Renewal
 
 During the Update Period, you may download Updates through the private package repository, using the access credentials we issue for your license. After the Update Period ends, you may renew your license at the renewal price in effect at that time to receive further Updates. Without renewal, the Software keeps working, but you will not receive new versions.
+
+The Software contains no license verification; the access credentials are needed only to download from the private package repository. You may keep copies of the packages you have downloaded — in your version control or in a private package repository of your own — and continue to install them in the Projects your license covers, during and after the Update Period and whether or not the private package repository remains available.
+
+The only connection the Software makes to our servers is the update check, which says nothing about your license and does not stop the Software from working. To tell your administrators that an Update is out, the Software asks our update server for the list of releases twice a day, and when an administrator asks for it, sending only the Software's version, the PHP version, the edition and a random identifier of the installation — not the site's address, its modules, users or content (see our [Privacy Policy](https://kitloom.dev/privacy)). You can turn the check off with `KITLOOM_UPDATE_CHECK=false`.
 
 ## 7. Ownership
 
