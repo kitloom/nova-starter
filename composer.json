@@ -91,6 +91,8 @@
         "kitloom/link-checks-nova": "^1.0",
         "kitloom/listings": "^1.0",
         "kitloom/listings-nova": "^1.0",
+        "kitloom/live": "^1.0",
+        "kitloom/live-nova": "^1.0",
         "kitloom/lyceum-theme": "^1.0",
         "kitloom/maintenance": "^1.0",
         "kitloom/maintenance-nova": "^1.0",
