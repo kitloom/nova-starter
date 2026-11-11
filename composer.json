@@ -39,6 +39,8 @@
         "kitloom/blade-theme": "^1.0",
         "kitloom/booking-calendars": "^1.0",
         "kitloom/booking-calendars-nova": "^1.0",
+        "kitloom/booking-checkouts": "^1.0",
+        "kitloom/booking-checkouts-nova": "^1.0",
         "kitloom/booking-deposits": "^1.0",
         "kitloom/booking-deposits-nova": "^1.0",
         "kitloom/booking-meetings": "^1.0",
