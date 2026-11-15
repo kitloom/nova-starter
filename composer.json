@@ -139,6 +139,8 @@
         "kitloom/quire-theme": "^1.0",
         "kitloom/redirects": "^1.0",
         "kitloom/redirects-nova": "^1.0",
+        "kitloom/rest-api": "^1.0",
+        "kitloom/rest-api-nova": "^1.0",
         "kitloom/safe-svg": "^1.0",
         "kitloom/safe-svg-nova": "^1.0",
         "kitloom/saffron-theme": "^1.0",
