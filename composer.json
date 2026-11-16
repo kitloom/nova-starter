@@ -43,6 +43,8 @@
         "kitloom/booking-checkouts-nova": "^1.0",
         "kitloom/booking-deposits": "^1.0",
         "kitloom/booking-deposits-nova": "^1.0",
+        "kitloom/booking-discounts": "^1.0",
+        "kitloom/booking-discounts-nova": "^1.0",
         "kitloom/booking-meetings": "^1.0",
         "kitloom/booking-meetings-nova": "^1.0",
         "kitloom/bookings": "^1.0",
